@@ -1,11 +1,4 @@
 {
     "name": "my-project-devcontainer",
-    "dockerFile": "Dockerfile",
-    "features": {
-        "ghcr.io/devcontainers/features/aws-cli:1":{},
-        "ghcr.io/devcontainers/features/kubectl-helm-minikube:1":{},
-        "ghcr.io/rio/features/k9s:1":{},
-        "ghcr.io/rio/features/k3d:1":{},
-        "ghcr.io/devcontainers/features/docker-in-docker:2":{}
-    }
+    "image": "ghcr.io/bayt-al-hiqma/dev:latest"
 }
